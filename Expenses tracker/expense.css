@@ -1,3 +1,8 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
 table{
     margin-top: 20px;
     width: 90%;
@@ -5,5 +10,5 @@ table{
 
 table, th, td{
     border: 1px solid rgb(37, 1, 241);
-    
+    border-radius: 10px;
 }

@@ -21,11 +21,13 @@ let body = ""
 if (previousExpenses) {
     expenses = previousExpenses
     display(expenses)
+    //this checks if there were any values in localstorage and if true,
+    // the values are displayed on the screen
 }
 
 class expenditure {
     constructor(date, item, desc, amount) {
-        this.date = date,
+            this.date = date,
             this.item = item,
             this.desc = desc,
             this.amount = amount
